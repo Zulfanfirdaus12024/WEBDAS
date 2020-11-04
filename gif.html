@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Layout Style</title>
+   <style>
+      body {background:#DDDDDD;}
+      .area {width:100%; background:#FFFFFF}
+      .header {text-align:center; background:#009900; height:65px; width:100%}
+      .footer {text-align:center; background:#FF5555; height:20px; width:100%; font-size:85%}
+      .menu {background:#2288EE; width:35%; float:left; text-align:center}
+      .konten {width:65%; float:right}
+   </style>
+</head>
+<body>
+<div class="area">
+   <div class="header">
+      <h1 style="padding:10px; color:#FFFFFF">UDINUS</h1>
+   </div>
+   <div class="menu">
+		<p><b>menu utama layout</b></p>
+		<ul style="list-style:none; margin-left:-40px">
+        <li><a href="summary.html">summary</a>
+		<li><a href="time.html">time</a>
+		<li><a href="audio.html">audio</a>
+		<li><a href="vidio.html">vidio</a>
+		<li><a href="gif.html">gif</a>
+		<li><a href="sub.html">subtitels</a>
+		<li><a href="tube.html">youtube</a>
+      </ul>
+   </div>
+   <div class="konten">
+		<video autoplay loop muted playsinline>
+			<source src="movie.webm" type="video/webm" />
+			<source src="movie.mp4" type="video/mp4" />
+		</video>
+      <br><br><br><br><br><br>
+   </div>
+   <div style="clear:both"></div>
+   <div class="footer">
+      &copy; 2020 ZULFAN FIRDAUS SOFYAN
+   </div>
+</div>
+</body>
+</html>
