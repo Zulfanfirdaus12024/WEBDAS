@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Membuat Desain Form Login Dengan CSS - www.malasngoding.com</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+ 
+	<h1>Membuat Desain Form Login Dengan CSS <br/> www.malasngoding.com</h1>
+ 
+	<div class="kotak_login">
+		<p class="tulisan_login">Silahkan login</p>
+ 
+		<form>
+			<label>Username</label>
+			<input type="text" name="username" class="form_login" placeholder="Username atau email ..">
+ 
+			<label>Password</label>
+			<input type="text" name="password" class="form_login" placeholder="Password ..">
+ 
+			<input type="submit" class="tombol_login" value="LOGIN">
+ 
+			<br/>
+			<br/>
+			<center>
+				<a class="link" href="https://www.malasngoding.com">kembali</a>
+			</center>
+		</form>
+		
+	</div>
+ 
+ 
+</body>
+</html>/* pengaturan body */
+body{
+	background-color	: grey;
+	text-align			: center;
+	font-family			: Verdana, Tahoma, Helvetica;
+	font-size 			: 12px;
+}
+/*pengaturan layout utama */
+#layout{
+	background			: #fff;
+	width				: 980px;
+	margin				: auto;
+	text-align			: left;
+	padding				: 2px;
+}
+#header{
+	width				: 100%;
+	height				: 180px;
+	background-color	: #02a2dB;
+	position			: relative;
+}
+#header{
+	width				: 100%;
+	height				: 180px;
+}
+
+
+/*pengaturan menu*/
+#menu{
+	width				: 100%;
+	height				: 40px;
+	background-color	: maroon;
+	position			: relative;
+}
+#menu ul {
+	margin				: 0;
+	padding				: 0;
+	list-style			: none;
+}
+#menu ul li {
+	float				: left;
+}
+#menu ul li a{
+	float				: left;
+	color				: #d4d4d4;
+	padding				: 12px 20px;
+	text-decoration		: none;
+	background			: maroon;
+	border-left			: 1px solid #3c4042;
+	border-right		: 1px solid #3c4042;
+	text-shadow			: 0 -1px 1px rgba(0, 0, 0, 0.6);
+}
+#menu ul li a:hover{
+	color 				: white;
+	background			: #3c4042;
+}
+
+
+/* runing text*/
+#runningtext {
+	width				: 100%;
+	height				: 25px;
+	padding-top			: 7px;
+	margin				: 5px 0 5px 0;
+	background-color	: black;
+	color				: white;
+	position			: relative;
+}
+
+/* iklan */
+#sidebar {
+	padding				: 5px;
+	width				: 27%;
+	background-color	: #d3beaa;
+	position			: relative;
+	float				: right;
+	 /*memberikan garis putus putus*/
+	border-style		: dotted;
+	border-width		: 1px;
+}
+/* widged sidebar */
+.widged{
+	width				: 99%;
+	background-bottom	: 5px;
+	background			: #ffffff;
+	border-top			: 1px solid #DFDFDF;
+	border-bottom		: 1px solid #DFDFDF;
+	border-right		: 1px solid #DFDFDF;
+	border-left			: 1px solid #DFDFDF;
+	font-size			: 100%;
+	margin				: 0px 0px 5px 0px;
+} 
+/* ukuran iklan dan gambar*/
+.gambariklan {
+	width				: 100%;
+	height				: 150px;
+}
+ /*huruf judul */
+
+.judulwidged{
+	background			: #d74006;
+	padding				: 5px 10px 5px 10px;
+	margin				: 0px 0px 0px 0px;
+	text-align			: center;
+	color				: white;
+	font-weight			: bold;
+	font-size			: 15px;
+	margin-bottom		: 5px;
+}
+.widged ul {
+	margin				: 0px 0px 0px 0px;
+	padding				: 0px 0px 0px 0px;
+	list-style-type		: none;
+}
+.widged li {
+	padding				: 0px 0px 0px 0px;  /*top right bottom left*/
+	background-position	: left;
+	background-repeat	: no-repeat;
+	color				: #333333;
+}
+.widget li a {
+	color				: #333333;
+	border-bottom		: 1px dotted #cccccc;
+	text-decoration		: none;
+	display				: block;
+	margin-bottom		: 5px;
+	padding				: 4px 5px 3px 10px;
+}
+.widged li a:hover {
+	color				: blue;
+}
+/*pengaturan isi*/
+#isi{
+	padding				: 5px;
+	width				: 70%;
+	height				: auto;
+	background-color	: #ba7584;
+	position			: relative;
+	margin-top			: 5px;
+	
+}
+/*pengaturan posting*/
+.isiposting{
+	background-color	: #bc9d64;
+	width				: 98%;
+	height				: 180px;
+	margin-bottom		: 5px;
+	padding				: 5px;
+}
+/*pengaturan gambar*/
+.gambardepan{
+	float				: left;
+	height				: 170px;
+	width				: 170px;
+	margin-right		: 3px;
+	margin-top			: 3px;
+	padding				: 1px;
+	border				: 1px solid #dddddd;
+}
+/*pengaturan heading2 "judul*/
+.isiposting h2 {
+	font-size			: 20px;
+	font-weight			: bold;
+	color				: #ffffff;
+	margin-top			: 4px;
+	margin-bottom		: 3px;
+}
+.isiposting a{
+	text-decoration		: none;
+}
+.isiposting a:hover{
+	color				: yellow;
+}
+
+
+#footer {
+	width				: 100%;
+	height				: 50px;
+	margin-top			: 5px;
+	padding-top			: 30px;
+	background-color	: #49494e;
+	color				: white;
+	font-size			: 12pt;
+	text-align			: center;
+	position			: relative;
+	clear				: both;
+}
+
+
+.isipostingall {
+	background-color	: #bc9d64;
+	width				: 98%;
+	height				: auto;
+	margin-bottom		: 5px;
+	padding				: 5px;
+}
+.isipostingall h2{
+	text-align			: center;
+	color				: maroon;
+	font-size			: 20px;
+	font-weight			: bold;
+}
+.gambarposting1 {
+	width				: 230px;
+	height				: 250px;
+	float				: right;
+	margin				: 10px 5px 5px 10px;
+}
+
+
+.profil {
+	width				: 200px;
+	height				: 250px;
+	display				: block;
+	float				: right;
+	padding-right		: 5px;
+}
+.isipostingall h2{
+	text-align			: center;
+	color				: maroon;
+	font-size			: 20px;
+	font-weight			: bold;
+}
+
+
+#kontak {
+	padding				: 5px;
+	width				: 99%;
+	height				: auto;
+	background-color	: white;
+	position			: relative;
+	margin				: auto;
+	font-size			: 20px;
+}
+.kontak {
+	background-color	: none;
+	width				: 100%;
+	height				: auto;
+	margin-bottom		: 5px;
+}
+.kontak h2 {
+	background-color	: maroon;
+	height				: 40px;
+	color				: white;
+	text-align			: center;
+	padding-top			: 4px;
+	padding-bottom		: 4px;
+}
+.tablekontak {
+	color				: marron;
+	padding-left		: 20px;
+}
+.kolom1 {
+	width				: 20%x;
+}
+.kolo2 {
+	width				: 80%
+}
