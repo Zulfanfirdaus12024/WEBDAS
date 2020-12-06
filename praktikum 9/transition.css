@@ -1,0 +1,51 @@
+body{
+	background: black;
+	font-family: roboto;
+	text-align: center;
+}
+ 
+h1{
+	color: #fff;
+}
+ 
+.ketengah{
+	width: 800px;
+	margin: 10px auto;
+}
+ 
+.kotak{
+	width: 100px;
+	background: #fff;
+	height: 60px;
+	margin: 10px;
+	-webkit-transition: width 2s;
+        transition: width 2s;
+}
+ 
+.kotak:hover{
+	width: 400px;
+}
+ 
+.kotak1{
+	transition-timing-function: linear;
+}
+ 
+.kotak2{
+	transition-timing-function: ease;
+}
+ 
+.kotak3{
+	transition-timing-function: ease-in;
+}
+ 
+.kotak4{
+	transition-timing-function: ease-out;
+}
+ 
+.kotak5{
+	transition-timing-function: ease-in-out;
+}
+ 
+.kotak5{
+	transition-timing-function: cubic-bezier(2,4,5,6);
+}
