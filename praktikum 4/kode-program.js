@@ -1,0 +1,1 @@
+alert("Hello, nama saya ZULFAN ini adalah program JS eksternal!");
