@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Percabangan if/else/if | Zulfan FIRDAUS SOFYAN</title>
+</head>
+<body>
+    <script>
+        var nilai = prompt("Saya akan menberikan nilai sesuai yang anda jawab, SIAPA NAMA SAYA?");
+        var grade = "";
+
+        if(nilai == "zulfan firdaus sofyan") grade = "100"
+        else if(nilai == "zulfan firdaus") grade = "90"
+        else if(nilai == "zulfan") grade = "80"
+        else if(nilai == "firdaus") grade = "70"
+        else if(nilai == "sofyan") grade = "65"
+        else if(nilai == "senja") grade = "60"
+        else if(nilai == "julpan") grade = "50"
+        else grade == "0"
+
+        document.write(`<p>Grade anda: ${grade}</p>`);
+    </script>
+</body>
+</html>

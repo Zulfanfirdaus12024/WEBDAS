@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Percabangan switch/case | Zulfan Fs</title>
+</head>
+<body>
+    <script>
+
+        var jawab = prompt("Kamu beruntung! Silahakn pilih lewat mana kamu bisa menghubungiku, dengan memilih angka 1 sampai 3");
+        var hadiah = "";
+        
+        switch(jawab){
+            case "1":
+                hadiah = "wa:087827951188";
+                break;
+            case "2":
+                hadiah = "ig;@sajak.senja";
+                break;
+            case "3":
+                hadiah = "fb:senja datang";
+                break;
+            default:
+                document.write("<p>Opps! anda salah pilih</p>");
+        }
+
+        if(hadiah === ""){
+            document.write("<p>Kamu gak bisa menghubungiku</p>");
+        } else {
+            document.write("<h2>Selamat dapat menghubungiku lewat " + hadiah + "</h2>");
+        }
+    </script>
+</body>
+</html>
